@@ -20,7 +20,7 @@
   echo "<td bgcolor='#98FB98'>"; 
   echo "ผู้ป่วยใหม่";
   echo "</td>"; 
-  echo "<td bgcolor='#228B22'>"; 
+  echo "<td bgcolor='##66CC00'>"; 
   echo "ผู้ป่วยรวม";
   echo "</td>"; 
   echo "<td bgcolor='#F4A460'>"; 
@@ -52,7 +52,7 @@
     echo "<td bgcolor='#98FB98'>"; 
     echo $val->new_case;
     echo "</td>";
-    echo "<td bgcolor='#228B22'>"; 
+    echo "<td bgcolor='##66CC00'>"; 
     echo $val->total_case;
     echo "</td>";
     echo "<td bgcolor='#F4A460'>"; 
